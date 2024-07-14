@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  padding: 2rem;
+  background: #022022;
+}
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
