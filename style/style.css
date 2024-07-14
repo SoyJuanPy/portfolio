@@ -50,6 +50,13 @@ h1 {
   max-width: 600px;
   text-align: center;
 }
+.titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+.seccion-text {
+  font-size: 1.2rem;
+}
 @media screen and (max-width: 500px) {
   .navbar-brand {
     display: none;
