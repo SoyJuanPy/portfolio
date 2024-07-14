@@ -38,6 +38,18 @@ h1 {
   font-size: 1.5rem;
   color: red;
 }
+.color-sobre {
+  color: white;
+  background: #1b1b32;
+}
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
 @media screen and (max-width: 500px) {
   .navbar-brand {
     display: none;
