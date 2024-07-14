@@ -11,3 +11,35 @@
   align-items: center;
   justify-content: space-between;
 }
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-size: 2.5rem;
+}
+.port {
+  background: #000;
+  min-height: 450px;
+  text-align: center;
+}
+.port-principal {
+  padding: 3rem;
+}
+.img-port {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+.port-principal h2 {
+  font-size: 1.5rem;
+  color: red;
+}
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    display: none;
+  }
+}
