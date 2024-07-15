@@ -103,6 +103,10 @@ h1 {
   font-size: 1.2rem;
   color: #584e4e;
 }
+.seccion-oscura {
+  background-color: #000;
+  color: white;
+}
 .proyectos-recientes img {
   height: 100%;
   width: 100%;
@@ -145,6 +149,142 @@ h1 {
   font-size: 60px;
   margin: 10px;
 }
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+.articulos {
+  min-height: 500px;
+  padding: 30px;
+}
+.articulos .card {
+  width: 80%;
+  max-width: 600px;
+  margin: 20px;
+}
+/* Testimonio */
+
+.testimonio {
+  padding: 40px 40px 80px 40px;
+}
+.testimonio .carousel {
+  max-width: 800px;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel-item .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.testimonio-img {
+  height: 150px;
+  width: 150px;
+  margin: 10px 10px 20px 10px;
+}
+.testimonio-texto {
+  max-width: 70%;
+  font-size: 20px;
+  text-align: center;
+}
+.testimonio-info {
+  text-align: center;
+}
+.testimonio-info p {
+  margin-bottom: 0;
+}
+.testimonio-footer .cliente {
+  font-size: 1.2rem;
+}
+.testimonio-info .cargo {
+  font-size: 0.9rem;
+  color: #656060;
+}
+/*contacto*/
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background: rgb(13, 110, 253);
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+.contacto button {
+  color: white;
+  background: transparent;
+  border: 2px solid white;
+  padding: 1.25rem 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+.contacto button:hover {
+  color: black;
+  background-color: white;
+}
+.contacto button:hover i {
+  color: #000;
+}
+/*footer*/
+footer {
+  min-height: 500px;
+}
+.footer-icon {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.social-icon a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+.social-icon i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+.social-icon a:hover {
+  color: #000;
+  background-color: white;
+}
+.social-icon i:hover {
+  color: #000;
+}
 @media screen and (max-width: 500px) {
   .navbar-brand {
     display: none;
@@ -161,5 +301,14 @@ h1 {
   }
   .overlay i {
     font-size: 40px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .testimonio-img {
+    height: 120px;
+    width: 120px;
+  }
+  .testimonio-texto {
+    font-size: 18px;
   }
 }
