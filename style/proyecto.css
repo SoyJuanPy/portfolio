@@ -1,0 +1,65 @@
+/*footer*/
+footer {
+  min-height: 500px;
+}
+.footer-icon {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.social-icon a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+.social-icon i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+.social-icon a:hover {
+  color: #000;
+  background-color: white;
+}
+.social-icon i:hover {
+  color: #000;
+}
+@media screen and (max-width: 500px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+@media screen and (min-width: 700px) {
+  .port-inf {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+  .overlay i {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .testimonio-img {
+    height: 120px;
+    width: 120px;
+  }
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
