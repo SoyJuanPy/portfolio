@@ -162,48 +162,7 @@ h1 {
   max-width: 600px;
   margin: 20px;
 }
-/* Testimonio */
 
-.testimonio {
-  padding: 40px 40px 80px 40px;
-}
-.testimonio .carousel {
-  max-width: 800px;
-}
-.carousel-item {
-  height: 500px;
-}
-.carousel-item .container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.testimonio-img {
-  height: 150px;
-  width: 150px;
-  margin: 10px 10px 20px 10px;
-}
-.testimonio-texto {
-  max-width: 70%;
-  font-size: 20px;
-  text-align: center;
-}
-.testimonio-info {
-  text-align: center;
-}
-.testimonio-info p {
-  margin-bottom: 0;
-}
-.testimonio-footer .cliente {
-  font-size: 1.2rem;
-}
-.testimonio-info .cargo {
-  font-size: 0.9rem;
-  color: #656060;
-}
 /*contacto*/
 
 .contacto .container {
