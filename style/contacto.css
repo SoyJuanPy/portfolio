@@ -5,7 +5,30 @@
 }
 .navbar {
   padding: 2rem;
-  background: #022022;
+  background: #079ea8;
+}
+.navbar-toggler {
+  filter: invert(100%);
+}
+.nav-link {
+  color: #fff !important;
+}
+.active {
+  border: 2px solid #000 !important;
+  border-radius: 10px !important;
+  color: #000 !important;
+}
+.nav-item {
+  border: 2px solid #fff;
+  margin: 1px;
+  border-radius: 10px;
+}
+.active:hover {
+  color: #fff !important;
+}
+.nav-item:hover {
+  background: #000;
+  color: white;
 }
 .navbar-collapse {
   align-items: center;
@@ -54,6 +77,10 @@
 .contacto button:hover i {
   color: #000;
 }
+.seccion-oscura {
+  background-color: #000;
+  color: white;
+}
 /*footer*/
 footer {
   min-height: 500px;
@@ -92,7 +119,10 @@ footer {
 .social-icon i:hover {
   color: #000;
 }
-@media screen and (max-width: 500px) {
+.social-icon i:hover {
+  color: #000;
+}
+@media screen and (max-width: 578px) {
   .navbar-brand {
     display: none;
   }
