@@ -54,7 +54,8 @@ section {
   color: #584e4e;
 }
 .seccion-oscura {
-  background-color: #000;
+  background-color: #1b1b32;
+
   color: white;
 }
 .proyectos-recientes img {
@@ -150,9 +151,7 @@ footer {
 .social-icon i:hover {
   color: #000;
 }
-.social-icon i:hover {
-  color: #000;
-}
+
 @media screen and (max-width: 578px) {
   .navbar-brand {
     display: none;
